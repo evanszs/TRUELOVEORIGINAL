@@ -1,6 +1,10 @@
 import '../css/footer.css'
 
 const Cartoes = () => {
+
+
+
+  
   return (
     <div className='secao'>
   <div className="cards nossolocal">Nosso Local</div>
@@ -9,6 +13,7 @@ const Cartoes = () => {
 
   <div className="cards flashs">Orçamento</div>
   <div className="cards faq">FAQ</div>
+  
   </div>
   )
 }

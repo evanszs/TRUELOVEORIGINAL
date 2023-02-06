@@ -19,12 +19,13 @@ border-right: 1px dotted pink;
   height: 100%;
 }
 .flashs{
-  background-image: url('../img/ambiente2.jpg');
+
   background-position:0em;
   background-size:cover;
   width: 100%;
   height: 100%;
-  color: white;
+color:black;
+background-color: black;
   font-weight: bold;
   font-size: 2rem;
   opacity: 0.5;
@@ -32,12 +33,13 @@ border-right: 1px dotted pink;
 }
 
 .portfolio{
-  background-image: url('../img/ambiente2.jpg');
+
   background-position:0em;
   background-size:cover;
   width: 100%;
   height: 100%;
-  color: white;
+color:black;
+background-color: black;
   font-weight: bold;
   font-size: 2rem;
   opacity: 0.5;
@@ -46,24 +48,26 @@ border-right: 1px dotted pink;
 
 
 .faq{
-  background-image: url('../img/barra.jpg');
+
   background-position:0em;
   background-size:cover;
   width: 100%;
   height: 100%;
-  color: white;
+color:black;
+background-color: black;
   font-weight: bold;
   font-size: 2rem;
   opacity: 0.5;
 
 }
 .sn{
-  background-image: url('../img/trip.jpg');
+
   background-position:0em;
   background-size:cover;
   width: 120%;
   height: 100%;
-  color: white;
+color:black;
+background-color: black;
   font-weight: bold;
   font-size: 2rem;
   opacity: 0.5;
@@ -72,12 +76,13 @@ border-right: 1px dotted pink;
 
 
 .nossolocal{
-  background-image: url('../img/ambiente2.jpg');
+
   background-position:0em;
   background-size:cover;
   width: 100%;
   height: 100%;
-  color: white;
+color:black;
+background-color: black;
   font-weight: bold;
   font-size: 2rem;
   opacity: 0.5;
@@ -85,12 +90,13 @@ border-right: 1px dotted pink;
 }
 
 .tatuadores{
-  background-image: url('../img/ppl.jpg');
+
 
   background-size:cover;
   width: 110%;
   height: 100%;
-  color: white;
+color:black;
+background-color: black;
   font-weight: bold;
   font-size: 2rem;
   opacity: 0.5;
@@ -111,8 +117,57 @@ border-right: 1px dotted pink;
 
 }
 
+.cards{
+border-radius: 15%;
+height: 55%;
+border: none;
+background-image: linear-gradient(to top, pink 0%, yellow 100%);
 
-@keyframes{
+}
 
+
+
+@media only screen 
+
+  and (max-device-width: 1253px)
+ {
+    .cards{ font-size: 95%; }
+}
+@media only screen 
+
+  and (max-device-width: 963px)
+ {
+    .cards{ font-size: 95%;
+    width: 100%;
+    height: 55px;
+    
+    }
+    .App{
+width: 106%;
+
+    }
+}
+
+
+@media only screen 
+
+  and (max-device-width: 500px)
+ {
+    .cards{ font-size: 85%;
+    width: 100%;
+    height: 95px;
+    
+    }
+    .App{
+width: 200%;
+
+    }
+    .secao{
+      height: 134%;
+    }
+    .cards{
+margin-bottom: 50%;
+
+    }
 
 }
